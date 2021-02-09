@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gesteco.api", "src\gesteco.api\gesteco.api.csproj", "{8D20DBFB-0C6B-48D7-B93F-4CC88C6643C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gesteco.api.Tests", "test\gesteco.api.Tests\gesteco.api.Tests.csproj", "{F127E78D-1961-43F8-91F8-B87455BE0C9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{A9EA1ADE-7C30-4BB4-B57B-93339B3F3BA6}"
+	ProjectSection(SolutionItems) = preProject
+		gesteco.api\docs\ARC-DET - Aménagement écocentre - phase 1.docx = gesteco.api\docs\ARC-DET - Aménagement écocentre - phase 1.docx
+		gesteco.api\docs\ARC-DET - Aménagement écocentre - phase 1.pptx = gesteco.api\docs\ARC-DET - Aménagement écocentre - phase 1.pptx
+		gesteco.api\docs\On-boarding document-Ville de Laval_20200408.docx = gesteco.api\docs\On-boarding document-Ville de Laval_20200408.docx
+		gesteco.api\docs\Projet Ecocentre - phase 1 - maquettes retenues.pdf = gesteco.api\docs\Projet Ecocentre - phase 1 - maquettes retenues.pdf
+		gesteco.api\docs\Schéma de la Base de donnée   Ecocentre.docx = gesteco.api\docs\Schéma de la Base de donnée   Ecocentre.docx
+		gesteco.api\docs\~$héma de la Base de donnée   Ecocentre.docx = gesteco.api\docs\~$héma de la Base de donnée   Ecocentre.docx
+		gesteco.api\docs\Écocentre - Maquettes phase 1  - version 2.pptx = gesteco.api\docs\Écocentre - Maquettes phase 1  - version 2.pptx
+		gesteco.api\docs\Écocentre - User Story Mapping phase 1.vsdx = gesteco.api\docs\Écocentre - User Story Mapping phase 1.vsdx
+		gesteco.api\docs\Écocentre -phase 1 -BF et BNF.xlsx = gesteco.api\docs\Écocentre -phase 1 -BF et BNF.xlsx
+		gesteco.api\docs\Écocentre-Processus futur-phase 1 accueil citoyen.vsdx = gesteco.api\docs\Écocentre-Processus futur-phase 1 accueil citoyen.vsdx
+		gesteco.api\docs\Écocentre-User stories.xlsx = gesteco.api\docs\Écocentre-User stories.xlsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9C57C218-838C-4D5E-AF78-1C457D40988C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1DD20B24-69EC-4A24-9C31-0F97E05FBA22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D20DBFB-0C6B-48D7-B93F-4CC88C6643C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D20DBFB-0C6B-48D7-B93F-4CC88C6643C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D20DBFB-0C6B-48D7-B93F-4CC88C6643C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D20DBFB-0C6B-48D7-B93F-4CC88C6643C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F127E78D-1961-43F8-91F8-B87455BE0C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F127E78D-1961-43F8-91F8-B87455BE0C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F127E78D-1961-43F8-91F8-B87455BE0C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F127E78D-1961-43F8-91F8-B87455BE0C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D20DBFB-0C6B-48D7-B93F-4CC88C6643C7} = {9C57C218-838C-4D5E-AF78-1C457D40988C}
+		{F127E78D-1961-43F8-91F8-B87455BE0C9D} = {1DD20B24-69EC-4A24-9C31-0F97E05FBA22}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7F3F4E2-8709-4C05-AAD1-6813BF3EEAA6}
+	EndGlobalSection
+EndGlobal
